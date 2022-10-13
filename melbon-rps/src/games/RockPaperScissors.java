@@ -1,20 +1,21 @@
 package games;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class RockPaperScissorsGame {
+public class RockPaperScissors {
 
     Player player;
 
     Fist aIFist;
 
-    RockPaperScissorsGame(String playerName, int playerScore) {
+    RockPaperScissors(String playerName, int playerScore) {
         player = new Player(playerName, playerScore);
         aIFist = new Fist();
     }
 
     public static void main(String[] args) {
-        RockPaperScissorsGame game = new RockPaperScissorsGame("", 0);
+        RockPaperScissors game = new RockPaperScissors("", 0);
         game.playGame();
 
         // aIFist.play()

@@ -22,5 +22,5 @@ public class Player {
     public String toString() {
         return "this name" + this.name + ", Score" + this.score;
     }
-}
 
+}

@@ -2,6 +2,7 @@ package games;
 
 import java.util.Random;
 
+
 public class Fist {
 
     public static final int ROCK = 0;
@@ -10,14 +11,14 @@ public class Fist {
 
     private Random random;
 
-    public int play(){
+    public int play() {
         Random random = new Random();
         int result = random.nextInt(3);
         return result;
     }
 
 
-    }
+}
 
 
 
