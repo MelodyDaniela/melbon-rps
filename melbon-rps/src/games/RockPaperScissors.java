@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class RockPaperScissors {
 
+    //@TODO: If the fields are not declared as private they can be manipulated from outside
     Player player;
 
     Fist aIFist;
